@@ -48,6 +48,11 @@ def run_job():
 	task = do_processing.apply_async()
 	return redirect(url_for('home'))
 
+@app.route('/stop_job/<task_id>', methods=['POST', 'GET'])
+def stop_job(task_id):
+	i = celery.control.revoke(task_id, terminate=True) 
+	return redirect(url_for('home'))
+
 @app.route('/status/<task_id>', methods=['GET'])
 def taskstatus(task_id):
 	task = celery.AsyncResult(task_id)
