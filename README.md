@@ -2,8 +2,9 @@ README
 ======
 
 Small snippet to test the display of Celery tasks in Flask. 
-The following code displays all the instance of a given tasks in real time.
-[Screen](static/screen.png)
+The following code displays every instance of a given tasks running in Celery and their status.
+
+![Screenshot](static/screen.png)
 
 
 Install
