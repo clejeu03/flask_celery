@@ -1,0 +1,74 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Custom virtualenv
+/flask
+
+# C extensions
+*.so
+
+# Mac OS X junk
+[Tt]humbs.db
+*.DS_Store
+._*
+
+# Distribution / packaging
+.Python
+env/
+bin/
+build/
+develop-eggs/
+app/dist/
+eggs/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Rope
+.ropeproject
+
+# Django stuff:
+*.log
+*.pot
+
+# Sphinx documentation
+docs/_build/
+
+*.DS_Store
+
+!static/vendors/
+!static/vendors/*
+!static/vendors/*/*
+!static/vendors/*/*/**.DS_Store
+*.jpg
+.idea/.name
+.idea/ADA.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
